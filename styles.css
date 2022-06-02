@@ -389,8 +389,8 @@
     width: 200px;
   }
   .about-overlay {
-    width: 450px;
-    margin-left: 35px;
+    width: 360px;
+    margin-left: 10px;
     margin-top: 40px;
   }
   .aboutimage {
@@ -400,11 +400,11 @@
     display: none;
   }
   .why {
-    height: 40vh;
+    height: 50vh;
   }
   .whoweare-overlay {
-    width: 450px;
-    margin-left: 35px;
+    width: 360px;
+    margin-left: 10px;
     margin-top: 10px;
   }
   .whyimagewho img {
@@ -423,12 +423,12 @@
     display: none;
   }
   .whatwedotext {
-    margin-left: 35px;
-    width: 450px;
+    margin-left: 10px;
+    width: 360px;
     margin-top: 40px;
   }
   .whatdo {
-    height: 40vh;
+    height: 60vh;
   }
   .howweworktextoverlay h3 {
     padding-left: 30px;
@@ -440,9 +440,9 @@
     display: none;
   }
   .howweworktext {
-    margin-left: 35px;
-    width: 450px;
-    margin-top: 100px;
+    margin-left: 10px;
+    width: 360px;
+    margin-top: 40px;
   }
   .whyimagebelieve {
     display: none;
@@ -455,22 +455,22 @@
     font-size: 40px;
   }
   .whyimagebelievetext img {
-    margin-left: 310px;
+    margin-left: 250px;
     margin-top: 0;
   }
   .belivetext {
-    margin-left: 35px;
-    width: 450px;
+    margin-left: 10px;
+    width: 360px;
     padding-top: 220px;
   }
   .how {
-    height: 40vh;
+    height: 35vh;
   }
   .weare {
-    height: 50vh;
+    height: 80vh;
   }
   .believe {
-    height: 60vh;
+    height: 80vh;
   }
 }
 
