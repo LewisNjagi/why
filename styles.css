@@ -1,0 +1,484 @@
+* {
+  overflow-x: hidden;
+}
+.image-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.image-overlay img {
+  position: absolute;
+  height: auto;
+  width: 300px;
+  margin-left: 800px;
+}
+.text-overlay h3 {
+  font-size: 3rem;
+  margin-left: 30px;
+  margin-top: 200px;
+  color: rgba(69, 160, 210, 255);
+}
+.text-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.whyimage-overlay img {
+  position: absolute;
+  margin-top: 480px;
+  margin-left: 30px;
+  height: auto;
+  width: 330px;
+}
+/* .col-4 {
+    border: red 2px solid;
+} */
+.about-overlay {
+  width: 450px;
+  margin-left: 450px;
+}
+.about-overlay p {
+  line-height: 50px;
+  font-size: 23px;
+}
+.image2 img {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  object-fit: cover;
+  max-height: 100%;
+}
+.aboutimage {
+  padding-top: 150px;
+}
+.aboutimage img {
+  position: absolute;
+}
+.whoweareimage {
+  top: 0;
+}
+.whoweareimage img {
+  position: absolute;
+  margin-top: 300px;
+}
+.whoweare-overlay {
+  width: 650px;
+  margin-left: 450px;
+}
+.whoweare-overlay p {
+  line-height: 50px;
+  font-size: 23px;
+}
+.whoweare-overlay h4 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.whatwedoimage img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+  /* min-height: 100vh; */
+  /* max-height: 100%; */
+}
+.whatwedoimageoverlay img {
+  position: absolute;
+  height: auto;
+  width: 48rem;
+  top: 1815px;
+  margin-left: 250px;
+}
+.imagetextoverlay {
+  position: absolute;
+}
+.imagetextoverlay h3 {
+  padding-left: 58rem;
+  padding-top: 17rem;
+  font-size: 50px;
+}
+.whatwedotextimage {
+  padding-top: 315px;
+  position: absolute;
+}
+.whatwedotext {
+  width: 600px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.whatwedotext p {
+  line-height: 50px;
+  font-size: 20px;
+}
+.howweworkimage img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+.howweworkimageoverlay img {
+  position: absolute;
+  height: auto;
+  width: 45rem;
+  top: 3115px;
+  right: 0;
+}
+.howweworktextoverlay {
+  position: absolute;
+}
+.howweworktextoverlay h3 {
+  color: beige;
+  padding-left: 300px;
+  padding-top: 23rem;
+  font-size: 50px;
+}
+.howweworktextimage {
+  padding-top: 366px;
+  padding-left: 50px;
+  position: absolute;
+}
+.howweworktext {
+  width: 450px;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+.howweworktext p {
+  line-height: 50px;
+  font-size: 20px;
+}
+.believeimage img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+.believeimageoverlay img {
+  position: absolute;
+  height: auto;
+  width: 20rem;
+  padding-top: 220px;
+}
+.believetextoverlay {
+  position: absolute;
+}
+.believetextoverlay h3 {
+  padding-top: 33rem;
+  color: beige;
+  padding-left: 48rem;
+  font-size: 50px;
+}
+.believetextimage {
+  padding-left: 100px;
+  position: absolute;
+}
+.belivetext {
+  padding-top: 200px;
+  width: 600px;
+  margin-left: 400px;
+}
+.belivetext p {
+  line-height: 50px;
+  font-size: 20px;
+}
+/* .world {
+  background-size: contain;
+} */
+.world img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  opacity: 0.5;
+  margin: 0;
+}
+.wheat img {
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.3;
+  margin-bottom: 0;
+}
+.whyimageabout img {
+  height: auto;
+  width: 100px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+.whyimagewho img {
+  height: auto;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.whyimagewhat img {
+  height: auto;
+  width: 100px;
+  margin-top: 490px;
+  margin-left: 100px;
+  position: absolute;
+}
+.whyimagehow img {
+  height: auto;
+  width: 100px;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 30px;
+}
+.whyimagebelieve img {
+  height: auto;
+  width: 100px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.whyimagebelievetext img {
+  height: auto;
+  width: 100px;
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 100px;
+}
+.why {
+  height: 80vh;
+}
+.whatdo {
+  height: 80vh;
+}
+.how {
+  height: 80vh;
+}
+.weare {
+  height: 80vh;
+}
+.believe {
+  height: 80vh;
+}
+/* .wheat {
+  z-index: 1;
+}
+.whee {
+  z-index: 0;
+} */
+
+@media screen and (max-width: 1400px) {
+  .aboutwhy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .image-overlay img {
+    position: absolute;
+    height: auto;
+    width: 320px;
+    margin-left: 520px;
+  }
+  .image2 img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+  .text-overlay h3 {
+    font-size: 45px;
+  }
+  .whyimage-overlay img {
+    height: auto;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutwhy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .image-overlay img {
+    position: absolute;
+    height: auto;
+    width: 290px;
+    margin-left: 400px;
+  }
+  .image2 img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+  .text-overlay h3 {
+    font-size: 40px;
+  }
+  .whyimage-overlay img {
+    height: auto;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .aboutwhy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .image-overlay img {
+    position: absolute;
+    height: auto;
+    width: 260px;
+    margin-left: 300px;
+  }
+  .image2 img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+  .text-overlay h3 {
+    font-size: 35px;
+  }
+  .whyimage-overlay img {
+    height: auto;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutwhy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .image-overlay img {
+    position: absolute;
+    height: auto;
+    width: 230px;
+    margin-left: 230px;
+  }
+  .image2 img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+  .text-overlay h3 {
+    font-size: 30px;
+  }
+  .whyimage-overlay img {
+    height: auto;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutwhy {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  .image-overlay img {
+    position: absolute;
+    height: auto;
+    width: 200px;
+    margin-left: 150px;
+  }
+  .image2 img {
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+  }
+  .text-overlay h3 {
+    font-size: 30px;
+  }
+  .whyimage-overlay img {
+    height: auto;
+    width: 200px;
+  }
+  .about-overlay {
+    width: 450px;
+    margin-left: 35px;
+    margin-top: 40px;
+  }
+  .aboutimage {
+    display: none;
+  }
+  .whyimageabout {
+    display: none;
+  }
+  .why {
+    height: 40vh;
+  }
+  .whoweare-overlay {
+    width: 450px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .whyimagewho img {
+    display: none;
+  }
+  .whoweareimage img {
+    display: none;
+  }
+  .imagetextoverlay h3 {
+    padding-left: 150px;
+  }
+  .whatwedotextimage img {
+    display: none;
+  }
+  .whyimagewhat img {
+    display: none;
+  }
+  .whatwedotext {
+    margin-left: 35px;
+    width: 450px;
+    margin-top: 40px;
+  }
+  .whatdo {
+    height: 40vh;
+  }
+  .howweworktextoverlay h3 {
+    padding-left: 30px;
+  }
+  .howweworktextimage img {
+    display: none;
+  }
+  .whyimagehow img {
+    display: none;
+  }
+  .howweworktext {
+    margin-left: 35px;
+    width: 450px;
+    margin-top: 100px;
+  }
+  .whyimagebelieve {
+    display: none;
+  }
+  .believeimageoverlay img {
+    width: 10rem;
+  }
+  .believetextoverlay h3 {
+    padding-left: 10rem;
+    font-size: 40px;
+  }
+  .whyimagebelievetext img {
+    margin-left: 350px;
+    margin-top: 0;
+  }
+  .belivetext {
+    margin-left: 35px;
+    width: 450px;
+    padding-top: 220px;
+  }
+  .how {
+    height: 40vh;
+  }
+  .weare {
+    height: 50vh;
+  }
+  .believe {
+    height: 60vh;
+  }
+}
+
+/* @font-face {
+    font-family: pauschalFont;
+    src: url(pauschalVF.ttf);
+}
+
+h1 {
+    font-family: pauschalFont;
+} */
