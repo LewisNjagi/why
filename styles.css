@@ -84,9 +84,9 @@
 .whatwedoimageoverlay img {
   position: absolute;
   height: auto;
-  width: 48rem;
-  top: 1815px;
+  width: 42rem;
   margin-left: 250px;
+  margin-top: 30px;
 }
 .imagetextoverlay {
   position: absolute;
@@ -97,7 +97,7 @@
   font-size: 50px;
 }
 .whatwedotextimage {
-  padding-top: 315px;
+  padding-top: 308px;
   position: absolute;
 }
 .whatwedotext {
@@ -118,9 +118,9 @@
 .howweworkimageoverlay img {
   position: absolute;
   height: auto;
-  width: 45rem;
-  top: 3115px;
+  width: 42rem;
   right: 0;
+  margin-top: 30px;
 }
 .howweworktextoverlay {
   position: absolute;
@@ -213,7 +213,7 @@
 .whyimagewhat img {
   height: auto;
   width: 100px;
-  margin-top: 490px;
+  margin-top: 480px;
   margin-left: 100px;
   position: absolute;
 }
@@ -471,6 +471,16 @@
   }
   .believe {
     height: 80vh;
+  }
+  .whatwedoimageoverlay img {
+    height: auto;
+    position: absolute;
+    width: 20rem;
+    margin-top: 455px;
+    margin-left: 70px;
+  }
+  .howweworkimageoverlay img {
+    display: none;
   }
 }
 
